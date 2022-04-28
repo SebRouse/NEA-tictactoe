@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-
+from Game import Game
 class Ui(ABC):
 
     @abstractmethod
@@ -18,4 +18,10 @@ class Terminal(Ui):
         pass
 
     def run(self):
-        pass
+
+
+
+
+    def turn(self):
+
+       
