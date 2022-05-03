@@ -37,11 +37,13 @@ class Terminal(Ui):
         winner = game.winner()
         if winner ==True:
             print(f"Player {game.TurnNo()} won")
+            exit()
         game.incrementTurn()
 
         drw = game.draw()
         if drw == True:
             print("the game ended in a draw")
+            exit()
 
         
 
