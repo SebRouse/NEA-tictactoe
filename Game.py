@@ -11,6 +11,7 @@ class Game:
 
     def __repr__(self):
         return repr(self._board)
+        
 
     def incrementTurn(self):
         self._noOfTurns +=1
@@ -31,7 +32,7 @@ class Game:
     def winner(self):
         win = False
         for i in range(3):
-            if self._board[i][0] == self._board._[i][1] and self._board[i][0]== self._board[i][2] and self._board[i][0] != None:
+            if self._board[i][0] == self._board[i][1] and self._board[i][0]== self._board[i][2] and self._board[i][0] != None:
                 win = True
             elif self._board[0][i] == self._board[1][i] and self._board[0][i] == self._board[2][i] and self._board[0][i] != None:
                 win = True
