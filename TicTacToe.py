@@ -12,7 +12,7 @@ t : play with the Terminal""")
 if __name__ == "__main__":
     if argv[1] == 'g':
         pass
-    elif argv[1] = 't':
+    elif argv[1] == 't':
         ui = Terminal()
         ui.run()
     else:
